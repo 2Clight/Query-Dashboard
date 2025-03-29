@@ -59,7 +59,7 @@ const QueryInput = () => {
             onChange={handleQueryChange}
             onKeyDown={handleKeyDown}
             onFocus={() => currentQuery.length > 0 && setShowSuggestions(true)}
-            className="pr-10 h-12 text-base focus-visible:bg-green-500"
+            className="pr-10 h-12 text-base focus-visible:ring-ai-primary"
             disabled={isLoading}
           />
           <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
