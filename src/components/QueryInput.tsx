@@ -67,7 +67,7 @@ const QueryInput = () => {
         <Button 
           onClick={submitQuery} 
           disabled={!currentQuery.trim() || isLoading}
-          className="h-12 px-6 bg-primary hover:bg-green-500"
+          className="h-12 px-6 bg-primary hover:bg-green"
         >
           {isLoading ? 'Processing...' : 'Analyze'}
         </Button>
